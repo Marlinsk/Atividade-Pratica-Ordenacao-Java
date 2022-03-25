@@ -17,4 +17,21 @@ public class Order {
 			}
 		}
 	}
+
+	public static void sortListbyNote(List<Item> listaItens) throws Exception {
+
+		for (int i = 0; i < listaItens.size(); i++) {
+			for (int j = i + 1; j < listaItens.size(); j++) {
+				String itemA = listaItens.get(i).category;
+				String itemB = listaItens.get(j).category;
+				String itemC = listaItens.get(i).evaluation;
+				String itemD = listaItens.get(j).evaluation;
+				if (itemC.compareTo(itemD) < 1 && itemB.equals(itemA)) {
+					Item temp = listaItens.get(i);
+					listaItens.set(i, listaItens.get(j));
+					listaItens.set(j, temp);
+				}
+			}
+		}
+	}
 }
