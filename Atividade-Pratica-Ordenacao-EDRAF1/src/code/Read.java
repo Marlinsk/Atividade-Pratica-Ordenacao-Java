@@ -9,7 +9,7 @@ public class Read {
 	
 	public static void Readfile(List<Item> Itemlist) throws Exception {
 		try {
-			String path = "D://Development/Eclipse-Workspace/Projects/Atividade-Pratica-Ordenacao-EDRAF1/file/JogosDesordenados.csv";
+			String path = "C://Users/Marlinsk/git/Atividade-Pratica-Ordenacao-EDRAF1/Atividade-Pratica-Ordenacao-EDRAF1/file/JogosDesordenados.csv";
 			BufferedReader br = new BufferedReader(new FileReader(path));
 			
 			String line = "";
