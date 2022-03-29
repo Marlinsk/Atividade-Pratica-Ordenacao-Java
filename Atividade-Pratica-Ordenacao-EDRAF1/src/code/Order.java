@@ -1,6 +1,6 @@
 package code;
 
-import java.util.List; // lê um objeto arrayList
+import java.util.List; 
 
 public class Order {
 
@@ -19,12 +19,9 @@ public class Order {
 		}
 	}
 
-	/* 
-	 * Método responsável por:  
+	/* Método responsável por:  
 	 * ordenar categoria em ordem alfabética
 	 * ordenar as notas em ordem decrescente
-	 * ordernar categoria e notas
-	 * 
 	 */
 	public static void sortListbyNote(List<Item> listaItens) throws Exception {
 		for (int i = 0; i < listaItens.size(); i++) {
