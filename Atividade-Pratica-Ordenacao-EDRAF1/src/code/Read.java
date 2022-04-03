@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Read {
 	
-	 // Método para ler arquivo csv 
+	// Método para ler arquivo csv 
 	public static void Readfile(List<Item> Itemlist) throws Exception {
 		try {
 			
